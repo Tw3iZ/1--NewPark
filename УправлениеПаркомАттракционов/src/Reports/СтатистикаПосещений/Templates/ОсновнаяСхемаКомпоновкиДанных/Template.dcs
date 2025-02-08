@@ -7,13 +7,6 @@
 	<dataSet xsi:type="DataSetQuery">
 		<name>НаборДанных1</name>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Аттракцион</dataPath>
-			<field>Аттракцион</field>
-			<role>
-				<dcscom:dimension>true</dcscom:dimension>
-			</role>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>КоличествоПосещенийНачальныйОстаток</dataPath>
 			<field>КоличествоПосещенийНачальныйОстаток</field>
 			<role>
@@ -51,9 +44,23 @@
 			<dataPath>КоличествоПосещенийРасход</dataPath>
 			<field>КоличествоПосещенийРасход</field>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Аттракцион</dataPath>
+			<field>Аттракцион</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Аттракцион</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидАттракциона</dataPath>
+			<field>ВидАттракциона</field>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-	АктивныеПосещенияОстаткиИОбороты.Аттракцион КАК Аттракцион,
+	АктивныеПосещенияОстаткиИОбороты.ВидАттракциона КАК Аттракцион,
 	АктивныеПосещенияОстаткиИОбороты.КоличествоПосещенийНачальныйОстаток КАК КоличествоПосещенийНачальныйОстаток,
 	АктивныеПосещенияОстаткиИОбороты.КоличествоПосещенийКонечныйОстаток КАК КоличествоПосещенийКонечныйОстаток,
 	АктивныеПосещенияОстаткиИОбороты.Период КАК Период,
@@ -181,6 +188,7 @@
 					<dcscor:use>false</dcscor:use>
 					<dcscor:parameter>Период</dcscor:parameter>
 					<dcscor:value xsi:nil="true"/>
+					<dcsset:userSettingID>9d610a19-3c28-47ee-83f9-5ac7afd3a542</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">

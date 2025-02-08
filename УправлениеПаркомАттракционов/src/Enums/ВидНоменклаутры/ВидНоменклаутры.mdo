@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ea4442f8-3ebe-4c80-8103-daea7c907345">
+  <producedTypes>
+    <refType typeId="3fe6447e-4549-4593-b66b-80dd7c1e4b09" valueTypeId="e6ce6522-a83b-45c3-83c7-66c31008fe07"/>
+    <listType typeId="520dc9ec-c864-4cd5-b756-e53979de95aa" valueTypeId="8f652c9a-7cff-4d82-aefc-7005b73095e8"/>
+    <managerType typeId="3c5ce21f-0920-47c0-bb18-9959ac0b69f5" valueTypeId="60eb2806-67af-4373-89fc-564ca674aed7"/>
+  </producedTypes>
+  <name>ВидНоменклаутры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид номенклаутры</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7409ee22-9ae2-40ed-9190-8f4f004b72fc">
+    <name>Товар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8d6c1abe-3cf4-4322-a0b1-9c43f1929cc4">
+    <name>Услуги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуги</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ad9376a2-dcde-4d19-9567-6994a5410def">
+    <name>ПосещениеАттракциона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Посещение аттракциона</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

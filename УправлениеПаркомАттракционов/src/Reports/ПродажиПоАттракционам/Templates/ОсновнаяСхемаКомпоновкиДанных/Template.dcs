@@ -7,8 +7,8 @@
 	<dataSet xsi:type="DataSetQuery">
 		<name>НаборДанных1</name>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Аттрационы</dataPath>
-			<field>Аттрационы</field>
+			<dataPath>ВидАттрациона</dataPath>
+			<field>ВидАттрациона</field>
 			<role>
 				<dcscom:dimension>true</dcscom:dimension>
 			</role>
@@ -19,7 +19,7 @@
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-	ПродажиОбороты.Аттрационы,
+	ПродажиОбороты.ВидАттрациона,
 	ПродажиОбороты.СуммаОборот
 ИЗ
 	РегистрНакопления.Продажи.Обороты КАК ПродажиОбороты</query>
@@ -85,7 +85,7 @@
 					<dcsset:field>СуммаОборот</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>Аттрационы</dcsset:field>
+					<dcsset:field>ВидАттрациона</dcsset:field>
 				</dcsset:item>
 			</dcsset:selection>
 			<dcsset:dataParameters>
